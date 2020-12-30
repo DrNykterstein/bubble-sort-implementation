@@ -1,4 +1,4 @@
-let numero = [2,1,4,5];
+let numero = [2,150,4,100];
 function bubbleSort(numero){
     let flag;
     let ordenado = false;
@@ -14,7 +14,7 @@ function bubbleSort(numero){
             }
         }
     }
-    
+    return numero;
 }
 function viewArray(numero){
     for(let k = 0; k < numero.length; k++){
